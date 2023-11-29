@@ -1,0 +1,148 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.the-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px hsl(221, 100%, 96%), -10px 10px 15px hsl(221, 100%, 96%);
+}
+.left{
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding:  30px;
+    color: hsl(0, 0%, 100%);
+    width: 300px;
+    text-align: center;
+}
+.left > p{
+    color: hsl(241, 100%, 89%);
+    font-size: 14px;
+    margin: 20px;
+}
+.left h2{
+    color: hsl(241, 100%, 89%);
+    font-size: 18px;
+}
+.mark{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(#4e21ca, hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.mark p {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+.mark p .max-mark{
+    font-size: 14px;
+    color: hsl(241, 100%, 89%);
+}
+.mark p .total-mark{
+    font-size: 50px;
+    font-weight: 700;
+}
+.left h1{
+    font-size: 22px;
+}
+
+.right{
+    border-radius: 20px;
+    padding: 30px;
+}
+.right h2{
+    font-size: 18px;
+    color: hsl(224, 30%, 27%);
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.center{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+.name{
+    display: flex;
+}
+.name p {
+    margin-left: 10px;
+    font-size: 16px;
+}
+.reaction{
+    background-color: hsla(0, 100%, 67%, 0.096);
+}
+.reaction p{
+    color: hsl(0, 100%, 67%);
+}
+.memory {
+    background-color: hsla(39, 100%, 56%, 0.096);
+}
+.memory p{
+    color: hsl(39, 100%, 56%);
+}
+.verbal{
+    background-color: hsla(166, 100%, 37%, 0.096);
+}
+.verbal p {
+    color: hsl(166, 100%, 37%);
+}
+.visual{
+    background-color: hsla(234, 85%, 45%, 0.096);
+}
+.visual p {
+    color: hsl(234, 85%, 45%);
+}
+.point {
+    color: hsl(224, 30%, 27%);
+    font-weight: 700;
+}
+.score{
+    color: hsl(0, 0%, 65%);
+    font-size: 16px;
+}
+.cards {
+    width: 100%;
+    display: grid;
+    gap: 15px;
+}
+button {
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    width: 100%;
+    border-radius: 500px;
+    border: none;
+    padding: 15px 0;
+    margin-top: 14px;
+}
+

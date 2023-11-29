@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <div class="the-card">
+      <div class="left">
+        <h2>Your Result</h2>
+        <div class="mark">
+          <p>
+            <span class="total-mark">76</span>
+            <span class="max-mark">of 100</span>
+          </p>
+        </div>
+        <h1>Great</h1>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+      
+      <div class="right">
+        <h2>Summary</h2>
+        <div class="center">
+            <div class="cards">
+              <div class="card reaction">
+                <div class="name"><img src="./assets/images/icon-reaction.svg" alt="reaction-icon"><p>Reaction</p></div>
+                <div class="score"><span class="point">80</span> / 100</div>
+              </div>
+              <div class="card memory">
+                <div class="name"><img src="./assets/images/icon-memory.svg" alt="memory-icon"><p>Memory</p></div>
+                <div class="score"><span class="point">92</span> / 100</div>
+              </div>
+              <div class="card verbal">
+                <div class="name"><img src="./assets/images/icon-verbal.svg" alt="verbal-icon"><p>Verbal</p></div>
+                <div class="score"><span class="point">61</span> / 100</div>
+              </div>
+              <div class="card visual">
+                <div class="name"><img src="./assets/images/icon-visual.svg" alt="visual-icon"><p>Visual</p></div>
+                <div class="score"><span class="point">72</span> / 100</div>
+              </div>
+            </div>
+          <button>Continue</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Clement Cruz Noble</a>.
+  </div>
+</body>
+</html>
