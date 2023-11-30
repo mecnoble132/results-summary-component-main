@@ -51,11 +51,16 @@ body{
     justify-content: center;
     align-items: center;
     margin: 20px;
+    transition: all 0.5s;
+}
+.mark:hover{
+    transform: scale(1.1);
 }
 .mark p {
     display: grid;
     grid-template-columns: 1fr;
     font-family: 'Hanken Grotesk', sans-serif;
+    user-select: none;
 }
 .mark p .max-mark{
     font-size: 14px;
@@ -144,5 +149,10 @@ button {
     border: none;
     padding: 15px 0;
     margin-top: 14px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: hsl(223, 31%, 18%);
 }
 
